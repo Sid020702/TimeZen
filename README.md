@@ -25,6 +25,10 @@ Users will be able to create recurring schedules for blocking apps:
 - Assign rules per app  
 
 TimeZen will automatically activate these schedules, ensuring structured digital habits throughout the week.
+![Home Screen](assets/images/home.png)
+![Set Limit Screen](assets/images/dashboard.png)
+![Set Limit](assets/sr/set-limit-demo.mp4)
+![Set Allowance](assets/sr/allowance-demo.mp4)
 
 ---
 
