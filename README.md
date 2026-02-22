@@ -1,97 +1,68 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# TimeZen — Scroll Smarter, Live Better
 
-# Getting Started
+TimeZen is a smart screen-time control app designed to help users reduce doom-scrolling and regain focus. It allows users to enforce time limits on distracting apps, automatically block access once limits are reached, and provide controlled break windows — creating a balanced and intentional app usage experience.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+Whether you’re trying to improve productivity, mental clarity, or digital discipline, TimeZen helps you stay in control.
 
-## Step 1: Start Metro
+---
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## ✨ Features
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+### App Time Blocking
+Set time limits on selected apps (like social media or video platforms). Once the limit is reached, TimeZen blocks access automatically, preventing endless scrolling.
 
-```sh
-# Using npm
-npm start
+### Controlled Break Windows
+During a blocked period, users can configure short, allowed usage windows. After the allowance expires, the app is blocked again — helping maintain discipline without feeling restrictive.
 
-# OR using Yarn
-yarn start
-```
+### Smart Auto-Blocking
+Blocking happens seamlessly in the background. No manual intervention is needed — TimeZen enforces your boundaries consistently.
 
-## Step 2: Build and run your app
+### Weekly Scheduling *(Coming Soon)*
+Users will be able to create recurring schedules for blocking apps:
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+- Select specific days of the week  
+- Define start and end times  
+- Assign rules per app  
 
-### Android
+TimeZen will automatically activate these schedules, ensuring structured digital habits throughout the week.
 
-```sh
-# Using npm
-npm run android
+---
 
-# OR using Yarn
-yarn android
-```
+## 🎯 Why TimeZen?
 
-### iOS
+- Reduces doom-scrolling  
+- Encourages mindful app usage  
+- Builds healthy digital routines  
+- Improves productivity and focus  
+- Supports intentional breaks  
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+---
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+## 🚀 How It Works
 
-```sh
-bundle install
-```
+1. Choose apps you want to regulate  
+2. Set blocking durations  
+3. Configure optional break windows  
+4. Let TimeZen enforce your limits  
 
-Then, and every time you update your native dependencies, run:
+Simple setup. Automatic discipline.
 
-```sh
-bundle exec pod install
-```
+---
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+## 🔒 Designed for Control — Not Punishment
 
-```sh
-# Using npm
-npm run ios
+TimeZen isn’t about restricting freedom — it’s about helping users make intentional choices. The built-in break system ensures flexibility while still reinforcing healthier habits.
 
-# OR using Yarn
-yarn ios
-```
+---
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+## 📌 Roadmap
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+- Weekly app blocking schedules  
+- Usage analytics and insights  
+- Focus session presets  
 
-## Step 3: Modify your app
+---
 
-Now that you have successfully run the app, let's make changes!
+## 🤝 Contributing
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Contributions, feature ideas, and feedback are welcome. TimeZen is built to evolve with user needs.
